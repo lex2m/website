@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Namaste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/f30e8168c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Start-->
+    <a name="home"></a>
+    <div class="hero">
+        <nav class="navbar">
+            <h2 class="logo" id="önder">Namaste</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="#" class="btn" id="sub">Subscribe</a>
+        </nav>
+
+        <div class="content">
+            <h4>Hello, my name </h4>
+            <h1><span>Namaste</span></h1>
+            <h3>I'm a Web Developer.</h3>
+            <div class="newslatter">
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="Enter Ur Email">
+                    <input type="submit" name="submit" value="Lets Start" id="start">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--About-->
+    <a name="about"></a>
+    <section class="about">
+        <div class="main">
+            <img src="images/about.jpg" alt="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Develpoer <span>& Designer</span></h5>
+                <p>Software engineer with a proven ability to adapt in both self-starting and
+                    collaborative environments while staying focused on achieving highquality results under strict
+                    deadlines. This quality and results-based
+                    approach drove me to collaborate with the VP of sales at Squarespace to
+                    create a digital marketing campaign that tripled average signups in a
+                    single month. Eager to obtain a challenging position at a prestigious
+                    company like Dream Version that will expand my learning and build upon
+                    my developer skills.</p>
+                <button type="button" id="talk">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Services-->
+    <a name="service"></a>
+    <div class="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: Firstly, it needs
+                        to work across all devices. Secondly, it needs to be fast as possible.
+                    </p>
+                    <p style="text-align: center;"><a href="#" class="button" id="more1">Read More</a></p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-user"></i>
+                <h5>Social Media</h5>
+                <div class="pra">
+                    <p>Think like a publisher, not like a marketer.
+
+                    </p>
+                    <p style="text-align: center;"><a href="#" class="button" id="more">Read More</a></p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--Contact Me-->
+
+    <div class="contact">
+        <p>Let Me Get You A Beautiful Website.</p>
+        <a class="button-two" href="#">Hire Me</a>
+    </div>
+
+
+    <!-- Footer Start -->
+
+    <footer>
+        <p>Namaste</p>
+        <p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channels:</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="end">CopyRight By Namaste</p>
+    </footer>
+
+
+    <script>
+        //sub start talk more
+        let sub = document.getElementById("sub");
+        let start = document.getElementById("start");
+        let talk = document.getElementById("talk");
+
+        let önder = document.getElementById("önder");
+
+
+
+        sub.onclick = function () {
+            parent.location = 'https://github.com/lex2m';
+            getData();
+        }
+        start.onclick = function () {
+            parent.location = 'https://www.google.com/intl/tr/gmail/about/';
+            getData();
+        }
+        talk.onclick = function () {
+            parent.location = 'https://github.com/lex2m';
+            getData();
+        }
+    </script>
+
+</body>
+
+</html>
